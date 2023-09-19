@@ -1,0 +1,110 @@
+*{
+    font-family: $mainFont;
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+}
+
+body {
+    background-color: $mainBackground;
+    margin: 0px;
+
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+    font-size: $textSm;
+}
+
+main {
+    margin: 0 30px;
+}
+
+.mainHeader {
+    background-color: $secondaryBackground;
+    border: solid $secondaryColor;
+    font-size: $textMd;
+}
+
+.separator {
+    color: $secondaryColor;
+    font-style: bold;
+}
+
+.secondHeader {
+    background-color: $secondaryColor;
+}
+
+.header-flex {
+    margin: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        gap: 5px;
+    }
+}
+
+.singIn-logIn-box {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 280px;
+    margin-top: 5px;
+
+    @media screen and (max-width: 768px) {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.ideoLogo {
+    width: 100px;
+}
+
+header li {
+    display: inline;
+    color: $mainColor;
+}
+
+a {
+    color: $mainColor;
+    font-family: $secondaryFont;
+    font-size: $textSm;
+}
+
+.header {
+    text-align: center;
+}
+
+h1,
+h2,
+.home, 
+button,
+div {
+    text-align: center;
+}
+
+button {
+    background-color: $secondaryBackground;
+    color: white;
+    font-size: $textSm;
+    font-family: $secondaryFont;
+}
+
+a:visited {
+    color: $mainColor;
+}
+
+h1 {
+    font-size: $textXl;
+}
+
+h2 {
+    font-size: $textLg;
+}

@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border;
+}
+
+body {
+  background-color: #f0ead1;
+  margin: 0px;
+}
+
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+  font-size: 1.1em;
+}
+
+main {
+  margin: 0 30px;
+}
+
+.mainHeader {
+  background-color: #666a86;
+  border: solid #333333;
+  font-size: 1.5em;
+}
+
+.separator {
+  color: #333333;
+  font-style: bold;
+}
+
+.secondHeader {
+  background-color: #333333;
+}
+
+.header-flex {
+  margin: 0 12px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .header-flex {
+    flex-direction: column;
+    gap: 5px;
+  }
+}
+
+.singIn-logIn-box {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 280px;
+  margin-top: 5px;
+}
+@media screen and (max-width: 768px) {
+  .singIn-logIn-box {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.ideoLogo {
+  width: 100px;
+}
+
+header li {
+  display: inline;
+  color: #e8ddb5;
+}
+
+a {
+  color: #e8ddb5;
+  font-family: Verdana, sans-serif;
+  font-size: 1.1em;
+}
+
+.header {
+  text-align: center;
+}
+
+h1,
+h2,
+.home,
+button,
+div {
+  text-align: center;
+}
+
+button {
+  background-color: #666a86;
+  color: white;
+  font-size: 1.1em;
+  font-family: Verdana, sans-serif;
+}
+
+a:visited {
+  color: #e8ddb5;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+h2 {
+  font-size: 3em;
+}
+
+.featuredItems {
+  color: #e8ddb5;
+  background-color: #666a86;
+  border: black;
+}
+
+.homeAndLivingItems {
+  background-color: grey;
+  border: 1px solid black;
+  width: 24%;
+  height: 350px;
+}
+
+.ItemView {
+  background-color: grey;
+  border: 1px solid black;
+  width: 24%;
+  height: 350px;
+  display: inline-block;
+}
+
+.homeAndLivingContent {
+  display: flex;
+  gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .homeAndLivingContent {
+    flex-direction: column;
+  }
+}
+
+.homeAndLivingItems {
+  width: 100%;
+}
+
+.homeAndLivingItems {
+  text-align: center;
+}
+
+.featuredCategoriesGrid {
+  display: flex;
+  width: auto;
+  gap: 15px;
+}
+@media screen and (max-width: 768px) {
+  .featuredCategoriesGrid {
+    flex-direction: column;
+  }
+}
+
+.featuredCategories {
+  width: 100%;
+}
+
+.imgContent {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  object-fit: cover;
+  position: relative;
+}
+
+.imgStyle {
+  width: 600px;
+  height: 600px;
+  object-fit: cover;
+}
+@media screen and (max-width: 768px) {
+  .imgStyle {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.containerMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #666a86;
+  border: solid;
+  color: #e8ddb5;
+  border-color: #d4e2ec;
+  min-width: 200px;
+  padding: 2px;
+  z-index: 1;
+  font-size: 1.5em;
+}
+@media screen and (max-width: 768px) {
+  .containerMenu {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.featuredItemsGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .featuredItemsGrid {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.itemsContent {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.featuredItems {
+  color: #e8ddb5;
+  background-color: #666a86;
+  border: 1px solid black;
+  width: 600px;
+  height: 660px;
+}
+@media screen and (max-width: 768px) {
+  .featuredItems {
+    width: auto;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.categories {
+  background-color: grey;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+}
+
+.containerMenu {
+  text-align: center;
+}
+
+.categories {
+  text-align: center;
+}
+
+.homeAndLivingGrid {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/*# sourceMappingURL=main.css.map */

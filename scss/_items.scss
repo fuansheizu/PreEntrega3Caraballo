@@ -1,0 +1,37 @@
+.featuredItems {
+    color: $mainColor;
+    background-color: $secondaryBackground;
+    border: black;
+}
+
+.homeAndLivingItems {
+    background-color: grey;
+    border: 1px solid black;
+    width: 24%;
+    height: 350px;
+}
+
+.ItemView {
+    background-color: grey;
+    border: 1px solid black;
+    width: 24%;
+    height: 350px;
+    display: inline-block;
+}
+
+.homeAndLivingContent {
+    display: flex;
+    gap: 15px;
+
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+
+.homeAndLivingItems {
+    width: 100%;
+}
+
+.homeAndLivingItems {
+    text-align: center;
+}
