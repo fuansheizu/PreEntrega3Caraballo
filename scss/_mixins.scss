@@ -1,0 +1,44 @@
+.txt-place {
+    text-align: center;
+}
+
+.txt-main {
+    color: $mainColor;
+}
+
+.txt-header {
+    @extend .txt-main;
+    display: inline;
+}
+
+.txt-links {
+    @extend .txt-header;
+    font-family: $secondaryFont;
+    font-size: $textSm;
+    &:hover{
+        color: white;
+    }
+}
+
+.fnt-main {
+    font-family: $secondaryFont;
+    font-size: $textSm;
+}
+
+.fnt-btn {
+    @extend .fnt-main;
+    background-color: $secondaryBackground;
+    color: white;
+}
+
+@mixin position ($type, $justify, $align){
+display: $type;
+justify-content: $justify;
+align-items: $align;
+}
+
+@mixin format ($color, $size, $style){
+    color: $color;
+    font-size: $size;
+    font-family: $style;
+}
